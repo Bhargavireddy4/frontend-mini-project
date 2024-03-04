@@ -1,0 +1,110 @@
+/* product.css */
+
+.product-container {
+    background-color:#f3f4f6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.individual-product-card {
+    display: flex;
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #f0f0f0;
+    transform: scale(1.0);
+    transition: transform 0.3s ease;
+}
+
+.individual-product-image-container {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px; 
+}
+
+.individual-product-image-wrapper {
+    max-width: calc(100% - 40px); 
+    max-height: calc(100% - 40px); 
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.individual-product-image {
+    width: 100%;
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.individual-product-content-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    flex: 1;
+}
+
+.individual-product-title,
+.individual-product-price,
+.individual-product-description {
+    margin: 0;
+}
+
+.individual-product-title {
+    color: #000000;
+    
+    font-family:"Inter",sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    font-size:large;
+    
+    
+}
+
+.individual-product-price {
+    color: #323232;
+    font-size:medium;
+    margin-bottom: 10px;
+}
+
+.individual-product-description {
+    color: #000000;
+    font-size: smaller;
+    margin-bottom: 10px;
+}
+
+
+.individual-product-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.individual-product-button:hover {
+    background-color: #e5e5e4;
+    color: #030303;
+}
+
+.individual-product-card:hover {
+   
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.individual-product-button:hover {
+    background-color: #dfdedd;
+    color: #080808;
+}
+
